@@ -13,6 +13,15 @@ if (time < 10) {
   greeting = "Good evening";
 }
 
-
-let ans = age>18 ? "can vote" : "cannot vote";
+let ans = age > 18 ? "can vote" : "cannot vote";
 console.log(ans);
+
+{
+  let givenAge = prompt("enter the age");
+
+  if (givenAge >= 18) {
+    console.log("can vote");
+  } else {
+    console.log("not eligible to vote");
+  }
+}
