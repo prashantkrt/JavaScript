@@ -1,7 +1,25 @@
-h1 {
-  color: aqua;
+#header1 {
+  color: rgb(0, 76, 255);
+}
+
+.header {
+  color: rgb(0, 255, 238);
+  background-color: antiquewhite;
+}
+
+p{
+  background-color: aquamarine;
 }
 
 body{
-  background-color:beige;
+   background-color:rgb(0, 24, 34); 
+}
+
+.myDiv{
+  height: 100px;
+  width:  100px;
+  border: 1px solid dark;
+  margin: 5px;
+  text-align: center;
+  background-color: aqua;
 }
