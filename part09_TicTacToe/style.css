@@ -3,12 +3,18 @@
   padding: 0;
 }
 
+#result {
+  font-size: 2rem;
+  color: #3a0ca3;
+  margin-bottom: 1rem;
+}
+
 body {
   background-color: #669bbc;
   text-align: center;
 }
 
-.container {   
+.container {
   border-radius: 1rem;
   border: none;
   height: 70vh;
@@ -53,4 +59,8 @@ body {
   color: white;
   background-color: #14213d;
   border-radius: 10px;
+}
+
+.hide {
+  display: none;
 }
