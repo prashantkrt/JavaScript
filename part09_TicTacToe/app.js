@@ -70,7 +70,8 @@ const disableAllButton = () => {
 const enableAllButton = () => {
   for (box of boxes) {
     box.disabled = false;
-    box.innerText = "";
+    box.style.backgroundColor="#0a9396"
+    box.innerText = "";    
   }
 };
 
